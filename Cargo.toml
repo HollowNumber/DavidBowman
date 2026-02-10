@@ -1,6 +1,12 @@
 [package]
 name = "david_bowman"
 version = "0.1.0"
+description = "Populate your hosts file with AI websites"
+authors = ["Mikkel M.H. Pedersen <mikkel.helding@gmail.com>"  ]
 edition = "2024"
+license = "Unlicense license"
 
 [dependencies]
+spinners = "4.1.1"
+tmpfile = "0.0.3"
+ureq = "3.2.0"
